@@ -1,0 +1,12 @@
+* { 
+  -moz-box-sizing: border-box; 
+  -webkit-box-sizing: border-box; 
+   box-sizing: border-box; 
+}
+
+body {
+  background-color: #1B262C;
+  background-image: url('../src/assets/image1.png');
+  color: #FFFFFF;
+  box-sizing: border-box;         /* Opera/IE 8+ */
+}

@@ -1,0 +1,89 @@
+h1 {
+    color: #FFF;
+    text-align: center;
+    font-size: 40px;
+    font-family: Poppins;
+    font-weight: 700;
+    line-height: 65px;
+}
+
+h2 {
+    color: #FFF;
+    text-align: center;
+    font-size: 40px;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 65px;
+}
+
+p {
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.weather-card {
+    width: 355px;
+    height: auto;
+    margin: 100px auto 0 auto;
+    padding: 50px;
+    background-color: #24353E;
+    border-radius: 12px;
+}
+
+.weather-card .weather-icon {
+    position: absolute;
+    top: 300px;
+    left: 750px;
+}
+
+.weather-card .weather-text {
+    font-family: Poppins;
+    font-weight: 200;
+}
+
+.units {
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-family: Poppins;
+    font-weight: 200;
+    line-height: 65px;
+    cursor: pointer;
+}
+
+.active-units {
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 65px;
+    text-decoration: underline;
+    cursor: text
+}
+
+input {
+    max-width: 358px;
+    max-height: 85px;
+    display: flex;
+    padding: 10px 190px 10px 30px;
+    align-items: flex-start;
+    border: 0;
+    border-radius: 12px;
+    background: #24343D;
+    box-shadow: 10px 10px 30px 0px rgba(36, 52, 61, 0.60) inset;
+    color: #FFF;
+    text-align: center;
+    font-size: 23px;
+    font-family: Poppins;
+    font-weight: 200;
+    line-height: 65px;
+}
