@@ -31,7 +31,8 @@ form {
 
 .weather-card {
     width: 355px;
-    height: auto;
+    max-height: 450px;
+    height: calc(100% - 210px);
     margin: 100px auto 0 auto;
     padding: 50px;
     background-color: #24353E;
@@ -42,6 +43,11 @@ form {
     position: relative;
     bottom: 110px;
     left: 150px;
+}
+
+.weather-card .weather-info {
+    position: relative;
+    bottom: 150px;
 }
 
 .weather-card .weather-text {
