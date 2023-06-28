@@ -6,6 +6,7 @@
 
 body {
   background-color: #1B262C;
+  padding: 210px 0;
   background-image: url('../src/assets//images/image1.png');
   color: #FFFFFF;
   box-sizing: border-box;         /* Opera/IE 8+ */

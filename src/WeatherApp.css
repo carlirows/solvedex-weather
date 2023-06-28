@@ -1,4 +1,5 @@
 h1 {
+    margin: 0 0 100px 0;
     color: #FFF;
     text-align: center;
     font-size: 40px;
@@ -19,19 +20,19 @@ h2 {
 p {
     font-family: Poppins;
     font-size: 25px;
-    font-weight: 400;
+    font-weight: 300;
+    margin: 0 0 20px 0;
 }
 
 form {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
 }
 
 .weather-card {
     width: 355px;
-    max-height: 450px;
+    max-height: 500px;
     height: calc(100% - 210px);
     margin: 100px auto 0 auto;
     padding: 50px;
@@ -39,20 +40,34 @@ form {
     border-radius: 12px;
 }
 
+.weather-card h2 {
+    color: #FFF;
+    text-align: center;
+    font-size: 40px;
+    font-family: Poppins;
+    font-weight: 700;
+    line-height: 65px;
+    margin: 0 0 20px 0;
+}
+
 .weather-card .weather-icon {
+    justify-content: end;
+    max-width: 288px;
+    max-height: 231px;
     position: relative;
-    bottom: 110px;
-    left: 150px;
+    bottom: 145px;
+    left: 100px;
 }
 
 .weather-card .weather-info {
     position: relative;
-    bottom: 150px;
+    bottom: 125px;
 }
 
 .weather-card .weather-text {
     font-family: Poppins;
     font-weight: 200;
+    margin: 0 0 40px 0;
 }
 
 .units {

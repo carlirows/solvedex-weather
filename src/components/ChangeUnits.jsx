@@ -13,7 +13,7 @@ export const ChangeUnits = ({units , changeUnits}) => {
       className={`celcius ${units === 'imperial' ? 'active-units' : ''}`}
       onClick={changeUnits}
     >
-        Farenheit
+         Farenheit
     </span>
   </p>
   )
