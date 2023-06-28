@@ -59,10 +59,7 @@ form {
     left: 100px;
 }
 
-.weather-card .weather-info {
-    position: relative;
-    bottom: 125px;
-}
+
 
 .weather-card .weather-text {
     font-family: Poppins;
