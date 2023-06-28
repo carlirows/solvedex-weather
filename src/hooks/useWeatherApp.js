@@ -17,7 +17,7 @@ export const useWeatherApp = () => {
       useEffect(() => {
         if (inputValue === '') return;
         searchWeather(inputValue, units);
-      }, [inputValue, units]);
+      }, [units]);
     
       const onInputChange = ({ target }) => {
         setInputValue(target.value);
