@@ -39,9 +39,9 @@ form {
 }
 
 .weather-card .weather-icon {
-    position: absolute;
-    top: 300px;
-    left: 750px;
+    position: relative;
+    bottom: 110px;
+    left: 150px;
 }
 
 .weather-card .weather-text {
