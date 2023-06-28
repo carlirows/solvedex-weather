@@ -1,4 +1,5 @@
 import React from 'react'
+// import {images} from '../assets.jsx'
 
 export const WeatherCard = ({weather, units}) => {
   return (
@@ -8,6 +9,7 @@ export const WeatherCard = ({weather, units}) => {
         ? <h2>Search for a city to begin</h2> 
         : (
             <div className='weather-card'>
+                {/* <img src={`${images[weather.icon]}`} alt="Image" className="weather-icon"/> */}
                 <img src={`../../src/assets/images/i${weather.icon}.png`} alt="Image" className="weather-icon"/>
                 <div className="weather-info">
                   <h2>{weather.city} <span className='weather-text'>{Math.floor(parseFloat(weather.temp))} {units === 'metric' ? '°C' : '°F'}</span></h2>
